@@ -1,0 +1,10 @@
+body {
+  padding-top: 75px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  overflow-x: hidden !important;
+}
