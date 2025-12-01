@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col gap-4">
           <img
-            src="/cooltext.png"
+            src="https://r72.cooltext.com/d.php?renderid=497236393003505&extension=png&bgcolor=transparent"
             alt="StayFinder logo"
             className="w-38 h-auto object-contain"
           />

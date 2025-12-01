@@ -14,7 +14,7 @@ const Navbar = ({ user, onLogout, onSignInClick }) => {
   return (
     <nav className="flex justify-between items-center fixed w-full bg-white shadow-md px-6 py-4 h-19 top-0 z-50">
       <Link to="/" className="flex items-center space-x-2">
-        <img src="/public/cooltext.png" alt="StayFinder Logo" className="h-8 w-30" />
+        <img src="https://r72.cooltext.com/d.php?renderid=497236393003505&extension=png" alt="StayFinder Logo" className="h-8 w-auto object-contain" />
         <span className="font-bold text-xl text-blue-700"></span>
       </Link>
 
