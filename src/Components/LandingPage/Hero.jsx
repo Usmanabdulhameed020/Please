@@ -11,7 +11,7 @@ const searchItems = [
   { name: "Featured Properties", type: "section", link: "featured-properties" },
   { name: "Gallery", type: "section", link: "gallery" },
   { name: "Blog", type: "section", link: "blog" },
-  { name: "Contact", type: "section", link: "contact" },
+  { name: "Contact", type: "page", link: "Contact" },
 ];
 
 const Hero = () => {
