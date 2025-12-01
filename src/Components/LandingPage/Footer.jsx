@@ -8,6 +8,7 @@ const Footer = () => {
     { name: "Home", path: "/" },
     { name: "Agents", path: "/find-an-agent" },
     { name: "Contact", path: "/Contact" },
+    { name: "Mortgage", path: "/Mortgage" },
   ];
 
   const socialLinks = [
