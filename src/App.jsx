@@ -38,6 +38,7 @@ import BuyDetails9 from "./Pages/Buy/BuyDetails9";
 import HomeBuyingTips from "./Components/LandingPage/HomeBuyingTips";
 import RealEstateInvesting from "./Components/LandingPage/RealEstateInvesting";
 import LuxuryPropertyGuide from "./Components/LandingPage/LuxuryPropertyGuide";
+import Contact from "./Components/LandingPage/Contact";
 
 const App = () => {
   return (
@@ -66,6 +67,7 @@ const App = () => {
         <Route path="/Buy" element={<Buy/>} />
         <Route path="/Mortgage" element={<Mortgage/>} />
         <Route path="/find-an-agent" element={<FindAgent />} />
+        <Route path="/Contact" element={<Contact />} />
         <Route path="/rent/:id" element={<RentDetails1 />} />
         <Route path="/rent/1" element={<RentDetails1 />} />
         <Route path="/rent/2" element={<RentDetails2 />} />
