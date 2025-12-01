@@ -47,6 +47,7 @@ const Navbar = ({ user, onLogout, onSignInClick }) => {
             </Link>
           </li>
         ))}
+        
 
         {showAuthButtons && (
           <>
