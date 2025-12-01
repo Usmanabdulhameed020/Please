@@ -11,7 +11,7 @@ const Contact = () => {
       alert("Please fill in all fields!");
       return;
     }
-    // Here you could connect to an API or email service
+
     alert(`Thank you, ${name}! Your message has been sent.`);
     setName("");
     setEmail("");
@@ -69,9 +69,9 @@ const Contact = () => {
         </form>
 
         <div className="mt-8 text-gray-500">
-          <p>Email: info@example.com</p>
-          <p>Phone: +1 234 567 890</p>
-          <p>Address: 123 Real Estate Street, City, Country</p>
+          <p>Email: usmanabdulhameed020@gmail.com</p>
+          <p>Phone: +234 902 854 2607</p>
+          <p>Address: 22 Real Estate Street, Lagos, Nigeria</p>
         </div>
       </div>
     </div>
