@@ -12,11 +12,11 @@ export default function BuyDetails3() {
     amount: 35000000,
     type: "Luxury Mansion",
     hero:
-      "https://images.unsplash.com/photo-1593697823785-e6c32f36c6f2?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1605146769289-440113cc3d00?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzAyfHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
     gallery: [
-      "https://images.unsplash.com/photo-1593697823785-e6c32f36c6f2?auto=format&fit=crop&w=1200&q=60",
-      "https://images.unsplash.com/photo-1505692794400-7f2e9c4a49c3?auto=format&fit=crop&w=1200&q=60",
-      "https://images.unsplash.com/photo-1598300056394-2f7d28c2217f?auto=format&fit=crop&w=1200&q=60",
+      "https://images.unsplash.com/photo-1733431766131-2e79fc11cbb4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzQxfHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D-",
+      "https://images.unsplash.com/photo-1654176154397-3133364f22e6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzQ0fHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1656646424292-cf207f3f1749?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzU1fHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
     ],
     description:
       "An extravagant 6-bedroom mansion featuring Italian marble interiors, automated lighting, a private rooftop lounge, and dual living rooms. A masterpiece built for ultra-modern taste.",

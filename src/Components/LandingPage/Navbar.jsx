@@ -3,16 +3,19 @@ import { Link, useLocation } from "react-router-dom";
 
 const Navbar = ({ user, onLogout, onSignInClick }) => {
   const location = useLocation();
+
   const isRentPage = location.pathname.startsWith("/rent");
   const isBuyPage = location.pathname.startsWith("/buy");
+
+  const showAuthButtons = isRentPage || isBuyPage;
 
   const isActive = (path) => location.pathname === path;
 
   return (
     <nav className="flex justify-between items-center fixed w-full bg-white shadow-md px-6 py-4 h-19 top-0 z-50">
       <Link to="/" className="flex items-center space-x-2">
-        <img src="/src/logo.png" alt="StayFinder Logo" className="h-8 w-8" />
-        <span className="font-bold text-xl text-blue-700">StayFinder</span>
+        <img src="/public/cooltext.png" alt="StayFinder Logo" className="h-8 w-30" />
+        <span className="font-bold text-xl text-blue-700"></span>
       </Link>
 
       <ul className="flex items-center space-x-8">
@@ -33,7 +36,6 @@ const Navbar = ({ user, onLogout, onSignInClick }) => {
               `}
             >
               {item.name}
-
               <span
                 className={`
                   absolute left-0 -bottom-0.5 h-0.5 bg-blue-600
@@ -45,38 +47,13 @@ const Navbar = ({ user, onLogout, onSignInClick }) => {
           </li>
         ))}
 
-        {isRentPage && (
+        {showAuthButtons && (
           <>
             {user ? (
               <>
-                <li className="text-gray-700 font-medium">Welcome, {user.name}</li>
-                <li>
-                  <button
-                    onClick={onLogout}
-                    className="bg-red-600 text-white px-3 py-1 rounded-lg hover:bg-red-700 transition"
-                  >
-                    Logout
-                  </button>
+                <li className="text-gray-700 font-medium">
+                  Welcome, {user.name}
                 </li>
-              </>
-            ) : (
-              <li>
-                <button
-                  onClick={onSignInClick}
-                  className="bg-blue-600 text-white px-3 py-1 rounded-lg hover:bg-blue-700 transition"
-                >
-                  Join Now
-                </button>
-              </li>
-            )}
-          </>
-        )}
-
-        {isBuyPage && (
-          <>
-            {user ? (
-              <>
-                <li className="text-gray-700 font-medium">Welcome, {user.name}</li>
                 <li>
                   <button
                     onClick={onLogout}

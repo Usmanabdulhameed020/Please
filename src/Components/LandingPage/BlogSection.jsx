@@ -20,7 +20,7 @@ const BlogSection = () => {
     {
       title: "Luxury Properties: What to Look For",
       image:
-        "https://images.unsplash.com/photo-1572120360610-d971b9e4f1e1?auto=format&fit=crop&w=1600&q=80",
+        "https://plus.unsplash.com/premium_photo-1684175656320-5c3f701c082c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXBhcnRtZW50fGVufDB8fDB8fHww",
       date: "Sep 15, 2025",
       link: "/blog/luxury-property-guide",
     },

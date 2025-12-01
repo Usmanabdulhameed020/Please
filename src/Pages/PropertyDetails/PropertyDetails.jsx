@@ -11,9 +11,9 @@ const PropertyDetails = () => {
     description:
       "Experience modern comfort in this stunning luxury apartment featuring open living spaces, natural lighting, and premium finishing. Located in the heart of Victoria Island — close to restaurants, offices, and the beach.",
     images: [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
-      "/src/Pages/download11.jpg",
-      "/src/Pages/download22.jpg",
+      "https://plus.unsplash.com/premium_photo-1714270097026-cbeade82cafb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHJlYWwlMjBlc3RhdGUlMjBwcm9wZXJ0aWVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1651766278499-829557922298?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTk2fHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1748021658617-f0931a022ad3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjA1fHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
     ],
     features: ["3 Bedrooms", "3 Bathrooms", "Swimming Pool", "24/7 Power", "Parking Garage"],
     agent: {

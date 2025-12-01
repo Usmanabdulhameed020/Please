@@ -11,9 +11,9 @@ const PropertyDetails3 = () => {
     description:
       "This stylish studio apartment offers a cozy yet modern living experience. Perfect for singles or young professionals, it’s located in Ikeja GRA with easy access to transport, cafes, and nightlife.",
     images: [
-      "/src/Pages/download (12).jpg",
-      "/src/Pages/download (16).jpg",
-      "/src/Pages/download (15).jpg",
+      "https://images.unsplash.com/photo-1635108195644-a3c57f263186?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHJlYWwlMjBlc3RhdGUlMjBwcm9wZXJ0aWVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1651766231263-334093e2de45?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjIzfHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1651765881075-193cf4ad62ce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjMyfHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
     ],
     features: ["1 Bedroom", "1 Bathroom", "Fully Furnished", "24/7 Security", "Air Conditioning"],
     agent: {

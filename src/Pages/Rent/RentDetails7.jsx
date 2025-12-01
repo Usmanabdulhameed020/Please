@@ -8,7 +8,7 @@ export default function RentDetails7() {
     price: "₦750,000 / year",
     amount: 750000,
     type: "Mini Flat",
-    image: "https://images.unsplash.com/photo-1622015663313-1d71f6b16e65",
+    image: "https://images.unsplash.com/photo-1668911494481-1643ee3e1235?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVhbCUyMGVzdGF0ZSUyMHByb3BlcnRpZXN8ZW58MHx8MHx8fDA%3D",
     description:
       "A contemporary mini flat with a balcony in Lekki Phase 2. Perfect for young professionals who love modern living with scenic views.",
     features: [

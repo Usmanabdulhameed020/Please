@@ -24,7 +24,11 @@ const Footer = () => {
     >
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col gap-4">
-          <h2 className="text-2xl font-bold text-sky-500">StayFinder</h2>
+          <img
+            src="/cooltext.png"
+            alt="StayFinder logo"
+            className="w-38 h-auto object-contain"
+          />
           <p className="text-gray-300">
             StayFinder helps you discover verified properties across Nigeria,
             connect with professional agents, and find your dream home with
@@ -50,8 +54,8 @@ const Footer = () => {
 
         <div>
           <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-          <p>Email: contact@stayfinder.com</p>
-          <p>Phone: +234 812 345 6789</p>
+          <p>Email: usmanabdulhameed020@gmail.com</p>
+          <p>Phone: +234 902 854 2607</p>
           <div className="flex gap-4 mt-4">
             {socialLinks.map((social, idx) => (
               <a

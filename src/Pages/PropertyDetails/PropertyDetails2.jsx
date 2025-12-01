@@ -11,9 +11,9 @@ const PropertyDetails2 = () => {
     description:
       "A cozy family duplex perfect for comfort and convenience. Spacious living areas, modern kitchen, and safe neighborhood. Located close to schools, shopping centers, and parks.",
     images: [
-      "/src/Pages/download (9).jpg",
-      "/src/Pages/download (10).jpg",
-      "/src/Pages/download (13).jpg",
+      "https://images.unsplash.com/photo-1635108197005-50e733eae3b8?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHJlYWwlMjBlc3RhdGUlMjBwcm9wZXJ0aWVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1627141440602-e9c1e5fd2fbf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE0fHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1625334782492-0fe0a4418c8a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE5fHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
     ],
     features: ["4 Bedrooms", "4 Bathrooms", "Private Garden", "Garage", "24/7 Security"],
     agent: {

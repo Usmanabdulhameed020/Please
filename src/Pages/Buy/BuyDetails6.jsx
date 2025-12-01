@@ -11,11 +11,11 @@ export default function BuyDetails6() {
     amount: 18000000,
     type: "Premium Apartment",
     hero:
-      "https://images.unsplash.com/photo-1549488330-8041c2471b12?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1617299215051-c99af1a33cd4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzM4fHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
     gallery: [
-      "https://images.unsplash.com/photo-1549488330-8041c2471b12?auto=format&fit=crop&w=1200&q=60",
-      "https://images.unsplash.com/photo-1560448204-63529348d641?auto=format&fit=crop&w=1200&q=60",
-      "https://images.unsplash.com/photo-1588880331179-bc2d61b8f533?auto=format&fit=crop&w=1200&q=60",
+      "https://images.unsplash.com/photo-1656646424976-845444fff394?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjYyfHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1656646424763-145e4956a416?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjY2fHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1656646424580-25a25819d2ab?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjgxfHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
     ],
     description:
       "A sophisticated 3-bedroom, 4th-floor apartment offering direct access to the city's best restaurants and corporate offices. Fully furnished with high-end European fittings.",

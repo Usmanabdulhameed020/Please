@@ -158,12 +158,12 @@ const AuthModal = ({ onClose, onLogin }) => {
 };
 
 const buyProperties = [
-  { id:1, title:"Skyline Royal Duplex", location:"Banana Island, Lagos", price:"₦30,000,000", type:"Luxury Duplex", image:"https://images.unsplash.com/photo-1613977257364-56ce948f5657" },
-  { id:2, title:"Royal Palm Waterfront Duplex", location:"Victoria Island", price:"₦27,000,000", type:"Penthouse", image:"https://images.unsplash.com/photo-1600585154154-98d06e4e8b1b" },
-  { id:3, title:"Marble Crest Mansion", location:"Lekki Phase 1, Lagos", price:"₦35,000,000", type:"Luxury Mansion", image:"https://images.unsplash.com/photo-1556912999-11d5c4f831c8" },
+  { id:1, title:"Skyline Royal Duplex", location:"Banana Island, Lagos", price:"₦30,000,000", type:"Luxury Duplex", image:"https://images.unsplash.com/photo-1627141234469-24711efb373c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQ2fHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D" },
+  { id:2, title:"Royal Palm Waterfront Duplex", location:"Victoria Island", price:"₦27,000,000", type:"Penthouse", image:"https://plus.unsplash.com/premium_photo-1746327707391-d095ac370b9c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjk3fHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D" },
+  { id:3, title:"Marble Crest Mansion", location:"Lekki Phase 1, Lagos", price:"₦35,000,000", type:"Luxury Mansion", image:"https://images.unsplash.com/photo-1605146769289-440113cc3d00?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzAyfHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D" },
   { id:4, title:"Skyline Penthouse", location:"Victoria Island, Lagos", price:"₦8,000,000", type:"Luxury Penthouse", image:"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267" },
   { id:5, title:"Azure Coast Villa", location:"Epe Lagoon, Lagos", price:"₦20,000,000", type:"Beachfront Villa", image:"https://images.unsplash.com/photo-1600585154340-be6161a56a0c" },
-  { id:6, title:"The Corporate Suite", location:"Ikoyi, Lagos", price:"₦18,000,000", type:"Premium Apartment", image:"",},
+  { id:6, title:"The Corporate Suite", location:"Ikoyi, Lagos", price:"₦18,000,000", type:"Premium Apartment", image:"https://images.unsplash.com/photo-1617299215051-c99af1a33cd4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzM4fHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",},
 ];
 
 export default function Buy() {
@@ -299,7 +299,7 @@ export default function Buy() {
               <button
                 onClick={() => {
                   if (!user) setShowAuthModal(true);
-                  else navigate(`/rent/${property.id}`);
+                  else navigate(`/buy/${property.id}`);
                 }}
                 className={`block mt-4 w-full text-center py-2 rounded-lg transition ${
                   user

@@ -8,7 +8,7 @@ export default function RentDetails3() {
     price: "₦2,500,000 / year",
     amount: 2500000,
     type: "Luxury Villa",
-    image: "https://images.unsplash.com/photo-1600585154154-deb2b9f1f05b?auto=format&fit=crop&w=1500&q=80",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
     description:
       "A high-end villa featuring marble flooring, automated lighting, indoor waterfalls, and a private deck. It delivers top-tier comfort with sophisticated architectural details.",
     features: [

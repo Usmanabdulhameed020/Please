@@ -12,11 +12,11 @@ export default function BuyDetails5() {
     amount: 20000000,
     type: "Beachfront Villa",
     hero:
-      "https://images.unsplash.com/photo-1542314831-068cd1dbf26e?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
     gallery: [
-      "https://images.unsplash.com/photo-1542314831-068cd1dbf26e?auto=format&fit=crop&w=1200&q=60",
-      "https://images.unsplash.com/photo-1570129477490-ba3e734c5147?auto=format&fit=crop&w=1200&q=60",
-      "https://images.unsplash.com/photo-1521782200878-b118742d17c5?auto=format&fit=crop&w=1200&q=60",
+      "https://plus.unsplash.com/premium_photo-1748499237751-608b1e787d76?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQ3fHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1668911491708-2b50b6c50c62?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQ5fHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1656646424599-c16e1c938c79?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjU4fHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
     ],
     description:
       "A serene 5-bedroom luxury villa offering direct access to the Epe lagoon shore. Designed with open spaces, high ceilings, and floor-to-ceiling glass to maximize natural light and views. Perfect for a holiday home or peaceful living.",

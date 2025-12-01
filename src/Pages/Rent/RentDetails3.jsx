@@ -8,7 +8,7 @@ export default function RentDetails3() {
     price: "₦250,000 / year",
     amount: 250000,
     type: "Self Contain",
-    image: "https://images.unsplash.com/photo-1560185127-6ed189bf02ec",
+    image: "https://plus.unsplash.com/premium_photo-1661883964999-c1bcb57a7357?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVhbCUyMGVzdGF0ZSUyMHByb3BlcnRpZXN8ZW58MHx8MHx8fDA%3D",
     description:
       "Affordable self-contained room near UniLag, fully furnished and ideal for students or single occupants. Comes with 24/7 security and water supply.",
     features: [

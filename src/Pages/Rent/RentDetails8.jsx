@@ -8,7 +8,7 @@ export default function RentDetails8() {
     price: "₦250,000 / year",
     amount: 250000,
     type: "Apartment",
-    image: "https://images.unsplash.com/photo-1613977257364-56ce948f5657",
+    image: "https://plus.unsplash.com/premium_photo-1711464867479-a7401b18eea9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJlYWwlMjBlc3RhdGUlMjBwcm9wZXJ0aWVzfGVufDB8fDB8fHww",
     description:
       "Spacious 1-bedroom apartment in Victoria Island. Ideal for executives or couples who desire comfort, luxury, and easy access to business districts.",
     features: [

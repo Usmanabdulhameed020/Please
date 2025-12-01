@@ -8,7 +8,7 @@ export default function RentDetails5() {
     price: "₦600,000 / year",
     amount: 600000,
     type: "Mini Flat",
-    image: "https://images.unsplash.com/photo-1600585154154-98d06e4e8b1b",
+    image: "https://images.unsplash.com/photo-1723110994499-df46435aa4b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhbCUyMGVzdGF0ZSUyMHByb3BlcnRpZXN8ZW58MHx8MHx8fDA%3D",
     description:
       "This newly built mini flat in Surulere is perfect for young professionals. Modern design, fully tiled, spacious living area, and a fitted kitchen.",
     features: [

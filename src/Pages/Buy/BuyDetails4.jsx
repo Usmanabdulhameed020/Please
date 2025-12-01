@@ -11,11 +11,11 @@ export default function BuyDetails4() {
     amount: 8000000,
     type: "Luxury Penthouse",
     hero:
-      "https://images.unsplash.com/photo-1558036117-211c1d8195e2?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
     gallery: [
-      "https://images.unsplash.com/photo-1558036117-211c1d8195e2?auto=format&fit=crop&w=1200&q=60",
-      "https://images.unsplash.com/photo-1554995207-d1cb44fa3156?auto=format&fit=crop&w=1200&q=60",
-      "https://images.unsplash.com/photo-1512918728847-cd77695392d4?auto=format&fit=crop&w=1200&q=60",
+      "https://images.unsplash.com/photo-1656646424895-aea229a814b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzYxfHxyZWFsJTIwZXN0YXRlJTIwcHJvcGVydGllc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://media.istockphoto.com/id/1432413457/photo/woman-taking-pictures-of-her-house.webp?a=1&b=1&s=612x612&w=0&k=20&c=7hV5B0OcHYsBE3awPv4VHxRcc5bzJCZZAY3SwGURczI=",
+      "https://images.unsplash.com/photo-1629236714692-9dddb8ebe990?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHJlYWwlMjBlc3RhdGUlMjBwcm9wZXJ0aWVzfGVufDB8fDB8fHww",
     ],
     description:
       "A stunning 4-bedroom penthouse on the 20th floor with breathtaking panoramic city and ocean views. Features include a private elevator, floor-to-ceiling windows, and smart home integration.",

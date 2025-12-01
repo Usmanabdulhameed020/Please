@@ -10,7 +10,7 @@ const FeaturedProperties = () => {
       location: "Victoria Island, Lagos",
       price: "$1,200 / month",
       image:
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+        "https://plus.unsplash.com/premium_photo-1714270097026-cbeade82cafb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHJlYWwlMjBlc3RhdGUlMjBwcm9wZXJ0aWVzfGVufDB8fDB8fHww",
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const FeaturedProperties = () => {
       location: "Lekki Phase 1, Lagos",
       price: "$950 / month",
       image:
-        "/src/Pages/download (9).jpg",
+        "https://images.unsplash.com/photo-1635108197005-50e733eae3b8?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHJlYWwlMjBlc3RhdGUlMjBwcm9wZXJ0aWVzfGVufDB8fDB8fHww",
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ const FeaturedProperties = () => {
       location: "Ikeja GRA, Lagos",
       price: "$700 / month",
       image:
-        "/src/Pages/download (12).jpg",
+        "https://images.unsplash.com/photo-1635108195644-a3c57f263186?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHJlYWwlMjBlc3RhdGUlMjBwcm9wZXJ0aWVzfGVufDB8fDB8fHww",
     },
   ];
 

@@ -28,7 +28,7 @@ const AuthModal = ({ onClose, onLogin }) => {
     existingUsers.push(newUser);
 
     localStorage.setItem("users", JSON.stringify(existingUsers));
-    localStorage.setItem("stayfinder_user", JSON.stringify(newUser)); // FIXED
+    localStorage.setItem("stayfinder_user", JSON.stringify(newUser));
 
     onLogin(newUser);
     onClose();
@@ -48,13 +48,13 @@ const AuthModal = ({ onClose, onLogin }) => {
       return;
     }
 
-    localStorage.setItem("stayfinder_user", JSON.stringify(user)); // FIXED
+    localStorage.setItem("stayfinder_user", JSON.stringify(user));
     onLogin(user);
     onClose();
   };
 
   const handleQuickLogin = (user) => {
-    localStorage.setItem("stayfinder_user", JSON.stringify(user)); // FIXED
+    localStorage.setItem("stayfinder_user", JSON.stringify(user)); 
     onLogin(user);
     onClose();
   };
@@ -161,13 +161,13 @@ const AuthModal = ({ onClose, onLogin }) => {
 const rentalProperties = [
   { id: 1, title: "Modern 2-Bedroom Apartment", location: "Ikeja, Lagos", price: "₦350,000 / year", type: "Apartment", image: "https://images.unsplash.com/photo-1586105251261-72a756497a11" },
   { id: 2, title: "Marble Crest Vila", location: "Lekki Phase 1", price: "₦2,500,000 / year", type: "Luxury Villa", image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c" },
-  { id: 3, title: "Self-Contained Room", location: "Yaba, Lagos", price: "₦250,000 / year", type: "Self Contain", image: "https://images.unsplash.com/photo-1560185127-6ed189bf02ec" },
+  { id: 3, title: "Self-Contained Room", location: "Yaba, Lagos", price: "₦250,000 / year", type: "Self Contain", image: "https://plus.unsplash.com/premium_photo-1661883964999-c1bcb57a7357?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVhbCUyMGVzdGF0ZSUyMHByb3BlcnRpZXN8ZW58MHx8MHx8fDA%3D" },
   { id: 4, title: "3-Bedroom Terrace Duplex", location: "Gbagada, Lagos", price: "₦1,200,000 / year", type: "Apartment", image: "https://images.unsplash.com/photo-1599427303058-f04cbcf4756f" },
-  { id: 5, title: "Newly Built Mini Flat", location: "Surulere, Lagos", price: "₦600,000 / year", type: "Mini Flat", image: "https://images.unsplash.com/photo-1600585154154-98d06e4e8b1b" },
+  { id: 5, title: "Newly Built Mini Flat", location: "Surulere, Lagos", price: "₦600,000 / year", type: "Mini Flat", image: "https://images.unsplash.com/photo-1723110994499-df46435aa4b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhbCUyMGVzdGF0ZSUyMHByb3BlcnRpZXN8ZW58MHx8MHx8fDA%3D" },
   { id: 6, title: "Affordable Self Contain", location: "Oshodi, Lagos", price: "₦180,000 / year", type: "Self Contain", image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267" },
-  { id: 7, title: "Modern Mini Flat with Balcony", location: "Lekki Phase 2", price: "₦750,000 / year", type: "Mini Flat", image: "https://images.unsplash.com/photo-1622015663313-1d71f6b16e65" },
-  { id: 8, title: "1 Bedroom Apartment", location: "Victoria Island", price: "₦250,000 / year", type: "Apartment", image: "https://images.unsplash.com/photo-1613977257364-56ce948f5657" },
-  { id: 9, title: "Standard Self Contain", location: "Yaba, Lagos", price: "₦230,000 / year", type: "Self Contain", image: "https://images.unsplash.com/photo-1600607687920-4eac4f3f95c9" },
+  { id: 7, title: "Modern Mini Flat with Balcony", location: "Lekki Phase 2", price: "₦750,000 / year", type: "Mini Flat", image: "https://images.unsplash.com/photo-1668911494481-1643ee3e1235?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVhbCUyMGVzdGF0ZSUyMHByb3BlcnRpZXN8ZW58MHx8MHx8fDA%3D" },
+  { id: 8, title: "1 Bedroom Apartment", location: "Victoria Island", price: "₦250,000 / year", type: "Apartment", image: "https://plus.unsplash.com/premium_photo-1711464867479-a7401b18eea9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJlYWwlMjBlc3RhdGUlMjBwcm9wZXJ0aWVzfGVufDB8fDB8fHww" },
+  { id: 9, title: "Standard Self Contain", location: "Yaba, Lagos", price: "₦230,000 / year", type: "Self Contain", image: "https://media.istockphoto.com/id/1310704103/photo/living-room-in-a-house-with-impressive-wood-and-skylights.webp?a=1&b=1&s=612x612&w=0&k=20&c=3kwbG_2XdzE0ZwHdSqmRbTopiLoc3oHaSEbRJ7biDqc=" },
 ];
 
 export default function Rent() {
@@ -186,7 +186,7 @@ export default function Rent() {
   }, []);
 
   const handleLogout = () => {
-    localStorage.removeItem("stayfinder_user"); // FIXED
+    localStorage.removeItem("stayfinder_user");
     setUser(null);
   };
 
@@ -215,7 +215,12 @@ export default function Rent() {
         />
       )}
 
-      <div className="relative w-full text-white py-20 text-center shadow-xl overflow-hidden">
+      <div 
+        className="relative w-full text-white py-20 text-center shadow-xl overflow-hidden bg-cover bg-center"
+        style={{
+          backgroundImage: 'url(https://media.istockphoto.com/id/1335296835/photo/close-up-focus-on-keys-smiling-woman-real-estate-agent-selling-apartment.webp?a=1&b=1&s=612x612&w=0&k=20&c=1YOfszPewzmgVPgTvMAAUCnkDM2FzyOfXDPwlizKVi0=)',
+        }}
+      >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10">
           <h1 className="text-5xl font-bold">Find Rental Homes</h1>
