@@ -18,7 +18,7 @@ const Navbar = ({ user, onLogout, onSignInClick }) => {
         <span className="font-bold text-xl text-blue-700"></span>
       </Link>
 
-      <ul className="flex items-center space-x-8">
+      <ul className="flex items-center space-x-8 mr-10">
 
         {[
           { name: "Rentals", path: "/rent" },
