@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Menu, X } from "lucide-react";
 
 const Navbar = ({ user, onLogout, onSignInClick }) => {
   const location = useLocation();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const isRentPage = location.pathname.startsWith("/rent");
   const isBuyPage = location.pathname.startsWith("/buy");
@@ -10,6 +12,7 @@ const Navbar = ({ user, onLogout, onSignInClick }) => {
   const showAuthButtons = isRentPage || isBuyPage;
 
   const isActive = (path) => location.pathname === path;
+  const closeMenu = () => setIsMenuOpen(false);
 
   return (
     <nav className="flex justify-between items-center fixed w-full bg-white shadow-md px-6 py-4 h-19 top-0 z-50">
@@ -18,7 +21,11 @@ const Navbar = ({ user, onLogout, onSignInClick }) => {
         <span className="font-bold text-xl text-blue-700"></span>
       </Link>
 
-      <ul className="flex items-center space-x-8 mr-10">
+      <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden flex items-center text-gray-700">
+        {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+      </button>
+
+      <ul className="flex items-center space-x-8 mr-10 max-md:hidden">
 
         {[
           { name: "Rentals", path: "/rent" },
@@ -79,6 +86,65 @@ const Navbar = ({ user, onLogout, onSignInClick }) => {
         )}
 
       </ul>
+
+      {isMenuOpen && (
+        <div className="absolute top-16 left-0 right-0 bg-white shadow-lg md:hidden z-40">
+          <ul className="flex flex-col space-y-2 p-4">
+            {[
+              { name: "Rentals", path: "/rent" },
+              { name: "Buy", path: "/buy" },
+              { name: "Mortgage", path: "/mortgage" },
+              { name: "Find an Agent", path: "/find-an-agent" },
+              { name: "Conatct", path: "/Contact" },
+            ].map((item) => (
+              <li key={item.path}>
+                <Link
+                  to={item.path}
+                  onClick={closeMenu}
+                  className={`block text-gray-700 font-medium py-2 px-3 rounded ${isActive(item.path) ? "text-blue-600 bg-blue-50" : ""} transition-colors duration-300`}
+                >
+                  {item.name}
+                </Link>
+              </li>
+            ))}
+
+            {showAuthButtons && (
+              <>
+                {user ? (
+                  <>
+                    <li className="text-gray-700 font-medium py-2 px-3 border-t">
+                      Welcome, {user.name}
+                    </li>
+                    <li>
+                      <button
+                        onClick={() => {
+                          onLogout();
+                          closeMenu();
+                        }}
+                        className="w-full text-left bg-red-600 text-white px-3 py-2 rounded-lg hover:bg-red-700 transition"
+                      >
+                        Logout
+                      </button>
+                    </li>
+                  </>
+                ) : (
+                  <li>
+                    <button
+                      onClick={() => {
+                        onSignInClick();
+                        closeMenu();
+                      }}
+                      className="w-full text-left bg-blue-600 text-white px-3 py-2 rounded-lg hover:bg-blue-700 transition"
+                    >
+                      Join Now
+                    </button>
+                  </li>
+                )}
+              </>
+            )}
+          </ul>
+        </div>
+      )}
     </nav>
   );
 };

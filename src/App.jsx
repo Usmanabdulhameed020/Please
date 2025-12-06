@@ -13,7 +13,7 @@ import Footer from "./Components/LandingPage/Footer";
 import BlogSection from "./Components/LandingPage/BlogSection";
 import Gallery from "./Components/LandingPage/Gallery";
 import Rent from "./Pages/Rent/Rent";
-import Buy from "./Pages/Buy/Buy";
+import Buy from "./Pages/Buy/Buy"
 import Mortgage from "./Pages/Mortgage";
 import FindAgent from "./Pages/FindAgent";
 import RentDetails1 from "./Pages/Rent/RentDetails1";
