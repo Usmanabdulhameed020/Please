@@ -69,7 +69,7 @@ const Contact = () => {
         </form>
 
         <div className="mt-8 text-gray-500">
-          <p>Email: usmanabdulhameed020@gmail.com</p>
+          <p>Email: ibrahimabdulgafar4545@mail.com</p>
           <p>Phone: +234 902 854 2607</p>
           <p>Address: 22 Real Estate Street, Lagos, Nigeria</p>
         </div>

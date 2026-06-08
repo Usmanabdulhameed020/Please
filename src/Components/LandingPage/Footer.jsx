@@ -54,7 +54,7 @@ const Footer = () => {
 
         <div>
           <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-          <p>Email: usmanabdulhameed020@gmail.com</p>
+          <p>Email: ibrahimabdulgafar4545@gmail.com</p>
           <p>Phone: +234 902 854 2607</p>
           <div className="flex gap-4 mt-4">
             {socialLinks.map((social, idx) => (
