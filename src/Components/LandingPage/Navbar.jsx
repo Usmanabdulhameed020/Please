@@ -32,7 +32,7 @@ const Navbar = ({ user, onLogout, onSignInClick }) => {
           { name: "Buy", path: "/buy" },
           { name: "Mortgage", path: "/mortgage" },
           { name: "Find an Agent", path: "/find-an-agent" },
-          { name: "Conatct", path: "/Contact" },
+          { name: "Contact", path: "/Contact" },
         ].map((item) => (
           <li key={item.path} className="relative group">
             <Link
